@@ -90,6 +90,19 @@ specter login       interactive setup
     --key        Ghost Admin API key (override config)
 ```
 
+## Shell Completion
+
+```bash
+# Zsh (add to ~/.zshrc)
+source <(specter completion zsh)
+
+# Bash (add to ~/.bashrc)
+source <(specter completion bash)
+
+# Fish (one-time)
+specter completion fish > ~/.config/fish/completions/specter.fish
+```
+
 ## Markdown Input
 
 Posts and pages accept markdown files with YAML frontmatter:
