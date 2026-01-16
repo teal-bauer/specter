@@ -101,6 +101,9 @@ source <(specter completion bash)
 
 # Fish (one-time)
 specter completion fish > ~/.config/fish/completions/specter.fish
+
+# PowerShell (add to $PROFILE)
+specter completion powershell | Out-String | Invoke-Expression
 ```
 
 ## Markdown Input
